@@ -8,7 +8,7 @@ body {
 
 .cabeçalho {
     /*text-align: center;*/
-    width: 75%;
+    width: 1236;
     height: 515px;
     margin: 75px 200px 99px 200px;
     padding: 0 24px;
@@ -17,9 +17,33 @@ body {
 
 #writing {
     width: 179px;
-    top: 370px;
+    margin: 0px 0px 0px 0px ;
+    height: 45px;
+    font-size: 35px;
+}
+
+#categories {
+    width: 129px;
+    height: 36px;
+    margin: 13px 0px 0px 478px;
+    font-size: 24px;
+}
+
+#articles {
+    width: 129px;
+    height: 36px;
+    margin: 13px 0px 0px 36px;
+    font-size: 24px;
+}
+
+#about {
+    width: 129px;
+    height: 36px;
+    margin: 13px 0px 0px 36px;
+    font-size: 24px;
 }
 
 #line {
     border: solid 2px red;
 }
+
