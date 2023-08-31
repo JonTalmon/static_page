@@ -47,3 +47,20 @@ body {
     border: solid 2px red;
 }
 
+.cabeçalho img {
+    margin: 126px auto 40.92px;
+    display: flex;
+    text-align: center;
+}
+
+h1 {
+    text-align: center;
+    color: #FF7575;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Recursive', sans-serif;
+    font-style: italic;
+    width: 844px;
+    height: 85px;
+    font-size: 71px;
+}
