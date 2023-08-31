@@ -3,4 +3,23 @@ body {
     font-family: 'Inter', sans-serif;
     font-family: 'Poppins', sans-serif;
     color: white;
+    margin: 0;
+}
+
+.cabeçalho {
+    /*text-align: center;*/
+    width: 75%;
+    height: 515px;
+    margin: 75px 200px 99px 200px;
+    padding: 0 24px;
+
+}
+
+#writing {
+    width: 179px;
+    top: 370px;
+}
+
+#line {
+    border: solid 2px red;
 }
