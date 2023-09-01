@@ -7,9 +7,6 @@ body {
 }
 
 .cabeçalho {
-    /*text-align: center;*/
-    width: 1236;
-    height: 515px;
     margin: 75px 200px 99px 200px;
     padding: 0 24px;
 
@@ -23,25 +20,29 @@ body {
 #writing {
     margin: 0px 0px 0px 0px ;
     font-size: 17px;
+    font-weight: 400;
 }
 
 #categories {
-    margin: 13px 0px 0px 478px;
+    margin: 13px 0px 0px 696px;
     font-size: 13px;
+    font-weight: 400;
 }
 
 #articles {
     margin: 13px 0px 0px 36px;
     font-size: 13px;
+    font-weight: 400;
 }
 
 #about {
     margin: 13px 0px 0px 36px;
     font-size: 13px;
+    font-weight: 400;
 }
 
 .cabeçalho img {
-    margin: 126px auto 40.92px;
+    margin: 73px auto 40.92px;
     display: flex;
     text-align: center;
 }
@@ -49,21 +50,56 @@ body {
 h1 {
     text-align: center;
     color: #FF7575;
-    font-family: 'Inter', sans-serif;
-    font-family: 'Poppins', sans-serif;
     font-family: 'Recursive', sans-serif;
     font-style: italic;
     font-size: 41px;
     margin: 0 0 17px 0;
+    letter-spacing: 2px;
+    font-weight: 400;
+    line-height: normal;
 }
 
 h2 {
     text-align: center;
     margin: 0;
     font-size: 16px;
+    font-weight: 400;
+    line-height: normal;
 }
 
-
 #line {
-    border: solid 2px red;
+    border: solid 1px #4D4D4D;
+    margin-bottom: 16px;
+}
+
+#line_text {
+    text-align: center;
+    word-spacing: 36px;
+    color: #909090;
+    font-family: 'Recursive', sans-serif;
+    font-style: italic;
+    font-size: 15px;
+    position: relative;
+}
+
+#imgs {
+    display: inline;
+    position: absolute;
+    margin-top: 0;
+}
+
+#grid {
+    display: inline;
+    margin-right: 41px;
+    width: 12px;
+    height: 12px;
+    word-spacing: 0;
+}
+
+#list {
+    display: inline;
+    margin-right: 13px;
+    width: 12px;
+    height: 12px;
+    word-spacing: 0;
 }
