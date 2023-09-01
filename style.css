@@ -21,35 +21,23 @@ body {
 }
 
 #writing {
-    width: 179px;
     margin: 0px 0px 0px 0px ;
-    height: 45px;
-    font-size: 15px;
+    font-size: 17px;
 }
 
 #categories {
-    width: 129px;
-    height: 36px;
     margin: 13px 0px 0px 478px;
-    font-size: 24px;
+    font-size: 13px;
 }
 
 #articles {
-    width: 129px;
-    height: 36px;
     margin: 13px 0px 0px 36px;
-    font-size: 4px;
+    font-size: 13px;
 }
 
 #about {
-    width: 129px;
-    height: 36px;
     margin: 13px 0px 0px 36px;
-    font-size: 24px;
-}
-
-#line {
-    border: solid 2px red;
+    font-size: 13px;
 }
 
 .cabeçalho img {
@@ -65,7 +53,17 @@ h1 {
     font-family: 'Poppins', sans-serif;
     font-family: 'Recursive', sans-serif;
     font-style: italic;
-    width: 844px;
-    height: 85px;
-    font-size: 71px;
+    font-size: 41px;
+    margin: 0 0 17px 0;
+}
+
+h2 {
+    text-align: center;
+    margin: 0;
+    font-size: 16px;
+}
+
+
+#line {
+    border: solid 2px red;
 }
