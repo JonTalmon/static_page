@@ -41,9 +41,11 @@ body {
 }
 
 .cabeçalho img {
-    margin: 73px auto 40.92px;
+    margin: 40px auto 23px;
     display: flex;
     text-align: center;
+    width: 112px;
+    height: 118px;
 }
 
 h1 {
@@ -110,15 +112,17 @@ h2 {
 ul {
     list-style: none;
     display: flex;
-    flex-direction: column;
-    gap: 21px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 50px;
     padding-left: 335px;
+    width: 1000px;
   }
 
 li {
     background: white;
-    width: 226px;
-    height: 254px;
+    width: 235px;
+    height: 260px;
     text-align: center;
     border-radius: 12px;
 }
