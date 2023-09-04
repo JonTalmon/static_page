@@ -167,4 +167,10 @@ li {
 .pagination {
     color: #909090;
     text-align: center;
+    word-spacing: 43px;
+}
+
+#paginas {
+    display: inline;
+    word-spacing: 0px;
 }
