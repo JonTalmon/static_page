@@ -6,7 +6,8 @@ body {
 }
 
 .cabeçalho {
-    margin: 75px 325px 99px 325px;
+    margin: 75px auto 99px;
+    text-align: center;
 }
 
 .cabeçalho a {
