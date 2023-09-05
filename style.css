@@ -6,9 +6,7 @@ body {
 }
 
 .cabeçalho {
-    margin: 75px 200px 99px 200px;
-    padding: 0 24px;
-
+    margin: 75px 325px 99px 325px;
 }
 
 .cabeçalho a {
@@ -23,7 +21,7 @@ body {
 }
 
 #categories {
-    margin: 13px 0px 0px 696px;
+    margin: 13px 0px 0px 530px;
     font-size: 13px;
     font-weight: 400;
 }
@@ -112,17 +110,18 @@ h2 {
 ul {
     list-style: none;
     display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    gap: 50px;
-    padding-left: 335px;
-    width: 1000px;
+    flex-flow: row wrap;
+    gap: 36px;
+    width: 918px;
+    margin: auto;
     margin-bottom: 50px;
+    padding-inline-start: 0px;
   }
+
 
 li {
     background: white;
-    width: 235px;
+    width: 260px;
     height: 260px;
     text-align: center;
     border-radius: 12px;
@@ -172,5 +171,5 @@ li {
 
 #paginas {
     display: inline;
-    word-spacing: 0px;
+    word-spacing: 23px;
 }
