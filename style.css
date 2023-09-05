@@ -114,7 +114,7 @@ ul {
     gap: 27px;
     width: 915px;
     margin: auto;
-    margin-bottom: 50px;
+    margin-bottom: 80px;
     padding-inline-start: 0px;
   }
 
@@ -156,19 +156,34 @@ li {
     margin-left: 20px;
 }
 
-
-.pagination a {
-    text-decoration: none;
-    color: #909090;
-}
-
 .pagination {
     color: #909090;
     text-align: center;
-    word-spacing: 43px;
+    word-spacing: 10px;
+    font-style: italic;
+    font-family: 'Recursive', sans-serif;
+    margin-bottom: 90px;
 }
 
-#paginas {
+.paginas a {
+    text-decoration: none;
+    color: #909090;
+    padding: 8px 10px;
+
+}
+
+.paginas {
     display: inline;
-    word-spacing: 23px;
+    word-spacing: 0;
+}
+
+#dois {
+    border-top: solid #FF7575;
+    color: #FF7575;
+    position: relative;
+}
+
+footer {
+    border-top: 2px solid #4D4D4D;
+    font-family: Source Sans Pro;
 }
