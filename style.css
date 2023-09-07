@@ -185,5 +185,43 @@ li {
 
 footer {
     border-top: 2px solid #4D4D4D;
-    font-family: Source Sans Pro;
+    font-family: 'Source Sans 3', sans-serif;
+    margin-bottom: 50px;
+    padding-top: 30px;
+    font-size: 20px;
+}
+
+.rodape {
+    width: 918px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: 600;
+}
+
+.abc {
+    display: flex;
+    align-items: center;
+}
+
+.by {
+    border-radius: 5px;
+    padding: 3px 7px;
+    background: #4699E0;
+    font-size: 12px;
+    margin-left: 16px;
+}
+
+#twitter {
+    border-radius: 5px;
+    background: #4699E0;
+    font-size: 12px;
+    padding: 3px 7px;
+}
+
+#twitter img {
+    position: relative;
+    width: 14px;
+    height: 9px;
 }
